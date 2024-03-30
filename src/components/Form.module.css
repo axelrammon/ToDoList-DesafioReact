@@ -1,0 +1,33 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -1.6875rem;
+}
+
+.inputTask {
+  width: 39.875rem;
+  height: 3.375rem;
+  margin: 0 0.5rem;
+  border-radius: 8px;
+  background-color: var(--gray-500);
+  padding: 1rem;
+  border: 2px solid var(--gray-700);
+  color: var(--white);
+}
+
+.buttonCriarTask {
+  width: 5.626rem;
+  height: 3.25rem;
+  background-color: var(--blue-dark);
+  border-radius: 8px;
+  color: var(--gray-100);
+  padding: 1rem;
+  border: none;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.buttonCriarTask:hover {
+  background-color: var(--blue);
+}
