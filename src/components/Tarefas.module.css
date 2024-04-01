@@ -1,0 +1,43 @@
+.tarefas {
+  width: 46rem;
+  height: 17.94rem;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+.tarefas > div {
+  margin-bottom: 1.5rem;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  height: 1.2rem;
+  font-weight: bold;
+}
+
+.tarefasCriadas {
+  color: var(--blue);
+
+}
+
+.tarefasConcluidas {
+  color: var(--purple);
+}
+
+.tarefasVazias {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 12.75rem;
+  color: var(--gray-300);
+  border-top: 1px solid var(--gray-300);
+}
+
+.contadorDeTarefas {
+  background-color: var(--gray-400);
+  padding: 0.300rem;
+  color: var(--gray-200);
+  border-radius: 8px;
+}

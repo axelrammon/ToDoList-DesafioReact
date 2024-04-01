@@ -14,15 +14,18 @@
   --gray-500: #262626;
   --gray-600: #1a1a1a;
   --gray-700: #0d0d0d;
-  /* --gray-800: #f2f2f2; */
-  /* --gray-900: #f2f2f2; */
 
   --danger: #e25858;
 }
 
 :focus {
   outline: transparent;
-  /* box-shadow: 0 0 0 2px var(--green-500); */
+}
+
+body, input, textarea, button {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
 }
 
 * {
